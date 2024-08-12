@@ -21,7 +21,7 @@ Imagine that these files reside in your project's repository:
 * [oss-fuzz/projects/example](..)
   * [Dockerfile](.clusterfuzzlite/Dockerfile): sets up the build environment
   * [build.sh](.clusterfuzzlite/build.sh): builds the fuzz target(s). The smaller this file the better (most of the logic should be inside the project's build system).
-  * [project.yaml](../project.yaml): short project description and contact info.
+  * [project.yaml](.clusterfuzzlite/project.yaml): short project description and contact info.
 
 ## Example bug
 Example bug report filed automatically: https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=1562
