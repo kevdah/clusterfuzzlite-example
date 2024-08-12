@@ -18,7 +18,7 @@ Imagine that these files reside in your project's repository:
 * [standalone_fuzz_target_runner.cpp](standalone_fuzz_target_runner.cpp): is a simple standalone runner for fuzz targets. You may use it to execute a fuzz target on given files w/o having to link in libFuzzer or other fuzzing engine.
 
 ## Files in OSS-Fuzz repository
-* [oss-fuzz/projects/example](..)
+* [oss-fuzz/projects/example](.)
   * [Dockerfile](.clusterfuzzlite/Dockerfile): sets up the build environment
   * [build.sh](.clusterfuzzlite/build.sh): builds the fuzz target(s). The smaller this file the better (most of the logic should be inside the project's build system).
   * [project.yaml](.clusterfuzzlite/project.yaml): short project description and contact info.
